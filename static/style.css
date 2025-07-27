@@ -52,6 +52,8 @@ section {
 }
 
 .hero {
+    border-style: dashed;
+    border-width: 2px;
     background-color: #e0f7fa;
     padding: 1rem;
     text-align: center;
@@ -149,4 +151,10 @@ footer {
     padding: 1.5rem;
     background-color: #222;
     color: #ccc;
+}
+
+iframe {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    border: none;
 }
