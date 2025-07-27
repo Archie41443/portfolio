@@ -37,7 +37,7 @@ const workshops = [
     {
         title: "Portfolio",
         filename: "portfolio.html",
-        description: "And finally, I designed and created this portfolio website from scratch using static html, css and javascript files."
+        description: "And finally, I designed and created this portfolio website from scratch using static html, css, and javascript files."
     }
 ];
 
