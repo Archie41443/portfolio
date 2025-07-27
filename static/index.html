@@ -5,6 +5,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Capgemini Experience Portfolio</title>
     <link href="style.css" rel="stylesheet"/>
+    <link href="assets/capgemini.ico" rel="icon"/>
 </head>
 <body>
 <header>
@@ -12,15 +13,21 @@
         <h1>My Portfolio</h1>
         <ul>
             <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
+            <li><a href="#entry-section">Entries</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 </header>
 
 <section id="hero">
-    <h2>Capgemini Work Experience Portfolio</h2>
-    <p>By Archie Saunders</p>
+    <div class="hero-content">
+        <img alt="A portrait of me, Archie Saunders" class="hero-image" src="assets/archi.png"/>
+        <div class="hero-text">
+            <h2>Capgemini Work Experience Portfolio</h2>
+            <p>By Archie Saunders</p>
+        </div>
+        <img alt="Capgemini's Logo" class="hero-image" src="assets/capgemini.png"/>
+    </div>
 </section>
 
 <section id="about">
@@ -39,9 +46,14 @@
         You can click on each entry below to view more information about what I did, as well as view evidence of my
         work.
     </p>
+    <br>
+    <h2>About Capgemini</h2>
+    <p>
+
+    </p>
 </section>
 
-<section id="projects">
+<section id="entry-section">
     <h2>Entries</h2>
     <div class="grid-container" id="entries"></div>
     <script src="render.js"></script>
@@ -49,8 +61,8 @@
 
 <section id="contact">
     <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">yourprofile</a></p>
+    <p><a href="https://linkedin.com/in/archiesaunders" target="_blank">Linkedin</a></p>
+    <p>Email: <a href="mailto:arc.b.saunders@gmail.com">arc.b.saunders@gmail.com</a></p>
 </section>
 
 <footer>
