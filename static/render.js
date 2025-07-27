@@ -2,12 +2,12 @@ const workshops = [
     {
         title: "Barclays Workshop",
         filename: "barclays.html",
-        description: "Participated in a workshop lead by Barclays and financial services at Capgemini containing many group tasks as well as information about money."
+        description: "Participated in a workshop led by Barclays and the financial services team at Capgemini containing many group tasks as well as information about money."
     },
     {
         title: "Project Management Workshop",
         filename: "project-management.html",
-        description: "Participated in a workshop lead by Bilyana Balkanska on different project management techniques how to successfully manage a group project."
+        description: "Participated in a workshop led by Bilyana Balkanska on different project management techniques how to successfully manage a group project."
     },
     {
         title: "Chaos Engineering Workshop",
@@ -32,13 +32,13 @@ const workshops = [
     {
         title: "AI Engineer Workshop",
         filename: "ai-engineer.html",
-        description: "Participated in a workshop lead by Nana Akua T-Mensah on the state of AI and it's future."
+        description: "Participated in a workshop led by Nana Akua T-Mensah on the state of AI and it's future."
     },
-    {
-        title: "Portfolio",
-        filename: "portfolio.html",
-        description: "And finally, I designed and created this portfolio website from scratch using static html, css, and javascript files."
-    }
+//    {
+//        title: "Portfolio",
+//        filename: "portfolio.html",
+//        description: "And finally, I designed and created this portfolio website from scratch using static HTML, CSS, and JavaScript files."
+//    }
 ];
 
 const container = document.getElementById("entries");
